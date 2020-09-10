@@ -1,8 +1,0 @@
-setupRequired(afw)
-setupRequired(pex_config)
-setupRequired(sconsUtils)
-setupRequired(sphgeom)
-setupRequired(utils)
-
-envPrepend(PATH, ${PRODUCT_DIR}/bin)
-envPrepend(PYTHONPATH, ${PRODUCT_DIR}/python)
